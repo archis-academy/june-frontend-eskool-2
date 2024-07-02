@@ -2,24 +2,60 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
 }
 
-html {
-	font-size: 10px;
-}
 
 
-.hero.wrapper {
+.hero-wrapper {
 	background: #282828;
 	height: 1920px;
 	width: 1080px;
+	
 }
 
 
 nav {
 	display: flex;
-	flex-direction: row;
 	width: 100%;
-	height: 15.5;
+	background: red;
+	justify-content: space-between;
+	flex-flow: row wrap;
 }
 
+.hero-company{
+	display: flex;
+	background: blue;
+	justify-content: center;
+	align-items: center;
+	height: 180px;
+	gap: 3rem;
+	left: 10px;
+	flex:2;
+}
+
+.hero-company__logo {
+	position: relative;
+
+}
+
+.hero-company__logo :nth-child(3) {
+	position: absolute;
+	left: 27px;
+}
+
+.hero-company__logo :nth-child(4) {
+	position: absolute;
+	left: 27px;
+	top: 21px
+}
+
+.hero-navigation {
+	flex: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:2rem;
+	background: yellow;
+}
