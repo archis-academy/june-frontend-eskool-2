@@ -17,8 +17,8 @@ nav {
   display: flex;
   width: 100%;
   flex-flow: row wrap;
-  padding-left: 7rem;
-  padding-right: 7rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .hero-company {
