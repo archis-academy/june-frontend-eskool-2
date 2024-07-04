@@ -1,29 +1,19 @@
-@font-face {
-	font-family: 'Poppins';
-	src: url(/fonts/Poppins-Regular.ttf);
-}
-
-@font-face {
-	font-family: 'Syne';
-	src: url(/fonts/Syne-Regular.ttf);
-}
-
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 :root {
-	--fnt-family-Poppins: "Poppins";
-	--fnt-family-Syne: "Syne";
-	--fnt-size-s: 1rem;
-	--fnt-size-md: 2rem;
-	--fnt-size-lr:3rem;
-	--fnt-clr-white: #FFFF;
-	--fnt-clr-secondary: #FE6839;
-	--fnt-clr-primary: #282828;
-	--fnt-weight-100: 500;
+  --fnt-family-Poppins: "Poppins";
+  --fnt-family-Syne: "Syne";
+  --fnt-size-s: 1rem;
+  --fnt-size-md: 2rem;
+  --fnt-size-lr: 3rem;
+  --fnt-clr-white: #ffff;
+  --fnt-clr-secondary: #fe6839;
+  --fnt-clr-primary: #282828;
+  --fnt-weight-100: 500;
 }
