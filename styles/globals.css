@@ -7,7 +7,7 @@
 }
 
 :root {
-  --fnt-family-Poppins: "Poppins";
+  --fnt-family-Poppins: "Poppins", sans-serif;
   --fnt-family-Syne: "Syne";
   --fnt-size-s: 1rem;
   --fnt-size-md: 2rem;
