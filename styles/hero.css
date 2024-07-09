@@ -20,7 +20,7 @@ nav {
   display: flex;
   width: 100%;
   flex-flow: row wrap;
-  padding: 0px 8rem;
+  padding: 0px 6rem;
 }
 
 .hero-company {
@@ -120,7 +120,7 @@ nav {
 }
 
 .content__text {
-  width: 70%;
+  width: 65%;
   height: auto;
   display: inline-flex;
   flex-direction: column;
