@@ -1,5 +1,7 @@
 @import "/styles/globals.css";
 
+/* HERO SECTION */
+
 .hero-wrapper {
   background: #282828;
   max-width: 1920px;
@@ -169,3 +171,5 @@ nav {
   transform: translate(-50%, 200%);
   backdrop-filter: blur(6px);
 }
+
+/* HERO SECTION */
