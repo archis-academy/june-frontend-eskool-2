@@ -156,6 +156,7 @@ nav {
 .rectangle-left {
   position: absolute;
   transform: translate(-350%, -50%);
+  backdrop-filter: blur(6px);
 }
 
 .round-center {
