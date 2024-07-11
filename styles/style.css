@@ -297,6 +297,10 @@ nav {
   font-size: var(--fnt-size-s); /* 16 */
 }
 
+/* perks eend */
+
+/* section head start */
+
 .expert-coaching__section-head-container {
   display: flex;
   width: 35%;
@@ -360,3 +364,7 @@ nav {
   width: 473px;
   border: 1.5px 0px 0px 0px;
 }
+
+/* section head end */
+
+/* EXPERT COACHING END */
