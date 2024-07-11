@@ -216,12 +216,13 @@ nav {
   display: flex;
   gap: 1rem;
   width: auto;
-  padding: 30px;
+  padding: 20px;
 }
 
 .cta-text {
   color: black;
-  font-size: 20px;
+  font-size: var(--fnt-size-s-m); /* 20px */
+  font-weight: var(--fnt-weight-500);
 }
 /* Leadership end */
 
@@ -332,6 +333,7 @@ nav {
   color: var(--fnt-clr-grey);
   font-size: var(--fnt-size-s-m);
   text-transform: uppercase;
+  font-weight: var(--fnt-weight-500);
 }
 
 .section-description-container {
