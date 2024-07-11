@@ -169,45 +169,19 @@ nav {
 /* Leadership start */
 .expert-coaching-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 1654px;
   max-width: 1920px;
-  background-color: red;
   margin: 0 auto;
   font-family: var(--fnt-family-Poppins);
   padding: 90px;
 }
 
-.leaders-container {
-  display: grid;
-  grid-template-columns: 1fr 1.6fr;
-  background-color: green;
-}
-
-.leaders__section-name-container {
+.expert-coaching__leaders-container {
   display: flex;
-  gap: 1rem;
-  background-color: yellow;
-}
-
-.leaders__section-name-wrapper {
-  display: flex;
-  gap: 1rem;
-  width: auto;
-  height: 40px;
-  justify-items: center;
-  align-items: center;
-}
-
-.section-name__icon {
-  width: 12px;
-  height: 12px;
-}
-
-.section-name__title {
-  color: var(--fnt-clr-grey);
-  font-size: var(--fnt-size-s-m);
-  text-transform: uppercase;
+  flex-direction: column;
+  width: 65%;
+  gap: 5rem;
 }
 
 .leaders__content-container {
@@ -215,7 +189,7 @@ nav {
 }
 
 .leaders__content__wrapper {
-  width: 90%;
+  width: 80%;
   display: grid;
   justify-items: start;
   align-self: start;
@@ -230,7 +204,7 @@ nav {
 }
 
 .content__subtext {
-  font-size: var(--fnt-size-s);
+  font-size: var(--fnt-size-s); /* 16px */
   line-height: 30px;
   font-weight: var(--fnt-weight-400);
 }
@@ -242,32 +216,36 @@ nav {
 }
 /* Leadership end */
 
-/* perks start */
-
-.perks-container {
+/* img start */
+.expert-coaching__img-container {
   display: grid;
-  grid-template-columns: 1fr 1.6fr;
-  background-color: blue;
+  place-content: center;
 }
 
-.perks__section-name-container {
+.expert-coaching__img-wrapper {
+  object-fit: cover;
+}
+
+.expert-coaching__img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+/* img end */
+
+/* Perks start */
+
+.expert-coaching__perks-container {
+  height: auto;
+  align-content: center;
+}
+
+.perks__content__wrapper {
   display: flex;
-  gap: 1rem;
-  background-color: yellow;
-}
-
-.perks__section-name-wrapper {
-  display: flex;
-  gap: 1rem;
-  width: auto;
-  height: 40px;
-  justify-items: center;
-  align-items: center;
-}
-
-.perks-name__icon {
-  width: 12px;
-  height: 12px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  gap: 4rem;
 }
 
 .perks-name__title {
@@ -276,25 +254,14 @@ nav {
   text-transform: uppercase;
 }
 
-.perks__content-container {
-  height: auto;
-}
-
-.perks__content__wrapper {
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 400px);
-  justify-items: start;
-  align-self: start;
-  grid-gap: 2rem;
-}
-
 .perk {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
-  width: 40%;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex: 0 1 40%;
   height: auto;
+  width: auto;
 }
 
 .perk__text {
@@ -309,8 +276,75 @@ nav {
 
 .perk h4 {
   font-family: var(--fnt-family-Syne);
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 36px;
+  font-size: var(--fnt-size-md); /* 32 */
+  font-weight: var(--fnt-weight-600);
+  line-height: 2rem;
   text-align: left;
+}
+
+.perk p {
+  font-size: var(--fnt-size-s); /* 16 */
+}
+
+.expert-coaching__section-head-container {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+}
+
+.section-head-content-wrapper {
+  display: flex;
+  width: auto;
+  height: 40%;
+  justify-items: start;
+  align-items: start;
+}
+
+.section-head-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 40px;
+}
+
+.section-head__icon {
+  width: 12px;
+  height: 12px;
+}
+
+.section-head__title {
+  color: var(--fnt-clr-grey);
+  font-size: var(--fnt-size-s-m);
+  text-transform: uppercase;
+}
+
+.section-description-container {
+  height: 60%;
+}
+
+.section-description-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-content-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: start;
+  align-items: start;
+}
+
+.section-description-paragraph {
+  width: 70%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: -10px;
+}
+
+.description-line {
+  width: 473px;
+  border: 1.5px 0px 0px 0px;
 }
