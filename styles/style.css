@@ -175,6 +175,9 @@ nav {
   margin: 0 auto;
   font-family: var(--fnt-family-Poppins);
   padding: 90px;
+  background-image: radial-gradient(#e9e9e9 100%, transparent 0%);
+  background-position: 0 -1000px;
+  background-repeat: no-repeat;
 }
 
 .expert-coaching__leaders-container {
@@ -212,7 +215,13 @@ nav {
 .cta-button {
   display: flex;
   gap: 1rem;
-  font-size: var(--fnt-size-s);
+  width: auto;
+  padding: 30px;
+}
+
+.cta-text {
+  color: black;
+  font-size: 20px;
 }
 /* Leadership end */
 
@@ -244,7 +253,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 4rem;
 }
 
@@ -258,7 +267,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 1rem;
+  gap: 2rem;
   flex: 0 1 40%;
   height: auto;
   width: auto;
@@ -267,6 +276,8 @@ nav {
 .perk__text {
   display: flex;
   flex-direction: column;
+  line-height: 30px;
+  gap: 1rem;
 }
 
 .perk img {
@@ -321,6 +332,7 @@ nav {
 
 .section-description-container {
   height: 60%;
+  padding-top: 5rem;
 }
 
 .section-description-wrapper {
