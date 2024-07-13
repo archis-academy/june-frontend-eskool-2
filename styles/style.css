@@ -22,13 +22,12 @@
 }
 
 <<<<<<< HEAD
-.section-2 {
+.about-us {
 	background: #F9F9F9;
 	margin: 0;
 	padding: 0;
 }
 
-/* BIRINCI KISIM */
 .contanier1 {
 	display: flex;
 	justify-content: center;
@@ -126,7 +125,6 @@
 .contanier2-card1 {
 	display: flex;
 	flex-direction: column;
-	/* item-group genişliğini çalıştırdı, flex-direction: column; özelliği olmadan sağ tarafta boşluk kalıyordu*/
 	justify-content: space-between;
 	background: #EAEAEA;
 	width: 424px;
