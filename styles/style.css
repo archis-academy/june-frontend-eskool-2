@@ -177,9 +177,9 @@ nav {
 /* END HERO SECTION */
 
 
-/* New Course */
+/* NEW COURSE */
 
-#new-course {
+.new-course {
   max-width: 1920px;
   height: 1162px;
   display: flex;
@@ -323,8 +323,6 @@ nav {
 
 .content-btn {
   border: 1px solid #F9F9F9;
-  width: 172px;
-  height: 70px;
   padding: 20px 30px 20px 30px;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -332,15 +330,11 @@ nav {
   color: #F9F9F9;
   border-radius: 50px;
   background: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   opacity: 0px;
   margin-left: 58px;
   margin-top: 20px;
 }
 
-/* Bottom Part */
 .contanier-bottom {
   max-width: 1919px;
   height: 416px;
@@ -359,23 +353,29 @@ nav {
 }
 
 .contanier-bottom-info {
-  width: auto;
-  height: 162px;
   display: flex;
   align-items: center;
   gap: 160px;
   margin-left: 177px;
 }
 
-.contanier-bottom-info-text {
+.contanier-bottom-info-content {
   display: flex;
   width: 422px;
   height: 162px;
 }
 
-.contanier-bottom-info-text img {
-  width: 116px;
-  height: 108px;
+.info-text-number {
+  display: flex;
+  align-items: start;
+}
+
+.info-text-number p{
+  font-family: "Syne", sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #FE6839;
+  margin-top: -35px;
 }
 
 .info-text {
