@@ -935,7 +935,133 @@ nav {
 
 /* LATEST NEWS END */
 
+/* OUR SERVICES START */
+
+/* our services head start */
+.ourservices-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1920px;
+  max-height: 928px;
+  margin: 0 auto;
+  padding: 90px;
+  background-color: #282828;
+}
+
+.ourservices-head-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.ourservices-head-content-wrapper {
+  display: flex;
+  width: auto;
+  height: 40%;
+  justify-items: start;
+  align-items: start;
+}
+
+.ourservices-head-wrapper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  height: 30px;
+}
+
+.ourservices-head-vector {
+  position: relative;
+  margin-top: 174px;
+  right: 300px;
+}
+
+.ourservices-head-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.ourservices-head-title {
+  color: var(--fnt-clr-grey);
+  font-family: var(--fnt-family-Poppins);
+  font-size: var(--fnt-size-s-m);
+  text-transform: uppercase;
+  font-weight: var(--fnt-weight-500);
+}
+/* our services head end */
+
+/* full services start */
+.fullservices-container {
+  height: 722px;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.fullservices-head-container {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fnt-family-Syne);
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 100px;
+  margin-left: -350px;
+}
+
+.fullservices-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.round-btn {
+  width: 54px;
+  height: 54px;
+  border-radius: 54px;
+  border-width: 2px;
+  border-color: var(--fnt-clr-secondary);
+  background: transparent;
+}
+
+.fullservices-head-title {
+  color: var(--fnt-clr-secondary);
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 100px;
+}
+
+.fullservices-list-content {
+  color: #f9f9f9;
+}
+/* full services end */
+
+/* our services image start */
+.ourservices-img {
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.ourservices-buttom-vector {
+  display: flex;
+  position: relative;
+  top: 42px;
+  right: -90px;
+}
+
+.ourservices-dotty-cover {
+  position: relative;
+  left: 340px;
+  bottom: 265px;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+}
+
+/* our services image end */
+
+/* OUR SERVICES END */
+
 /* HIGH-PERFORMANCE START */
+
 .high-performance-container {
   margin: 0 auto;
   max-width: 1920px;
@@ -1047,3 +1173,4 @@ nav {
   color: var(--fnt-clr-white);
 }
 /* FOOTER END */
+
