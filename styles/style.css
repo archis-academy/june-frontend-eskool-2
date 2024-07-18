@@ -735,6 +735,92 @@ nav {
 
 /* perks eend */
 
+/*--------------------------------------------------------------
+# COACHING PROGRAM       
+--------------------------------------------------------------*/
+.coaching {
+  max-width: 1920px;
+  height: 812px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.coaching-line1 {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+
+.coaching-line2 {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+
+.coaching-content {
+  width: 1876px;
+  display: flex;
+  align-items: center;
+  margin-left: 337px;
+  gap: 163px;
+  position: relative;
+}
+
+.coaching-content-images {
+  width: 424px;
+  height: 474px;
+}
+
+.content-circle {
+  position: absolute;
+  left: 340px;
+  top: -100px;
+}
+
+.content-rectangle {
+  position: absolute;
+  background: none;
+  bottom: -75px;
+  left: -100px;
+  border-radius: 10px;
+}
+
+.coaching-content-info {
+  width: 900px;
+  height: 474px;
+}
+
+.coaching-content-info p {
+  position: absolute;
+  z-index: 1;
+  width: 775px;
+  margin-left: 42px;
+  margin-top: -120px;
+  font-family: Syne;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 46px;
+}
+
+.content-commas {
+  display: flex;
+  gap: 20px;
+  padding-top: 80px;
+}
+
+.coaching-btn {
+  display: flex;
+  gap: 15px;
+  padding-top: 80px;
+  padding-left: 42px;
+}
+/* END COACHING PROGRAM */
+
 /* section head start */
 
 .expert-coaching__section-head-container {
@@ -944,6 +1030,246 @@ nav {
 }
 
 /* LATEST NEWS END */
+
+/* OUR SERVICES START */
+
+/* our services head start */
+.ourservices-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1920px;
+  max-height: 928px;
+  margin: 0 auto;
+  padding: 90px;
+  background-color: #282828;
+}
+
+.ourservices-head-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.ourservices-head-content-wrapper {
+  display: flex;
+  width: auto;
+  height: 40%;
+  justify-items: start;
+  align-items: start;
+}
+
+.ourservices-head-wrapper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  height: 30px;
+}
+
+.ourservices-head-vector {
+  position: relative;
+  margin-top: 174px;
+  right: 300px;
+}
+
+.ourservices-head-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.ourservices-head-title {
+  color: var(--fnt-clr-grey);
+  font-family: var(--fnt-family-Poppins);
+  font-size: var(--fnt-size-s-m);
+  text-transform: uppercase;
+  font-weight: var(--fnt-weight-500);
+}
+/* our services head end */
+
+/* full services start */
+.fullservices-container {
+  height: 722px;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.fullservices-head-container {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fnt-family-Syne);
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 100px;
+  margin-left: -350px;
+}
+
+.fullservices-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.round-btn {
+  width: 54px;
+  height: 54px;
+  border-radius: 54px;
+  border-width: 2px;
+  border-color: var(--fnt-clr-secondary);
+  background: transparent;
+}
+
+.fullservices-head-title {
+  color: var(--fnt-clr-secondary);
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 100px;
+}
+
+.fullservices-list-content {
+  color: #f9f9f9;
+}
+/* full services end */
+
+/* our services image start */
+.ourservices-img {
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.ourservices-buttom-vector {
+  display: flex;
+  position: relative;
+  top: 42px;
+  right: -90px;
+}
+
+.ourservices-dotty-cover {
+  position: relative;
+  left: 340px;
+  bottom: 265px;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+}
+
+/* our services image end */
+
+/* OUR SERVICES END */
+
+/* HIGH-PERFORMANCE START */
+
+.high-performance-container {
+  margin: 0 auto;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+}
+
+.high-performance-img-wrapper {
+  height: 589px;
+}
+
+.high-performance__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* the section's child elements were already designed in the prior components. check whatwedo section  */
+
+/* HIGH-PERFORMANCE END */
+
+/* FOOTER START */
+
+.footer-container {
+  background: #282828;
+  max-width: 1920px;
+  height: 650px;
+  display: flex;
+  margin: 0px auto;
+  color: var(--fnt-clr-white);
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-self: center;
+  height: auto;
+}
+
+.footer-company {
+  display: flex;
+  gap: 3rem;
+  width: 30%;
+}
+
+.footer-content-wrapper {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+}
+
+.footer-content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-content__list hr {
+  border: 1.5px solid #f9f9f972;
+}
+.footer-content__list__title {
+  font-family: var(--fnt-family-Syne);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+
+.footer-content__list__adress {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: left;
+  color: #f9f9f96c;
+  text-wrap: wrap;
+  width: 150px;
+}
+
+.footer-content__list__links li a {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: left;
+  color: #f9f9f96c;
+}
+
+.footer-bottom-wrapper {
+  border-top: 1.5px solid #f9f9f93f;
+  height: 120px;
+  align-content: center;
+  padding-left: 100px;
+}
+
+.footer-copyrigth-text {
+  font-family: var(--fnt-family-Poppins);
+  color: #f9f9f96c;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.footer-copyrigth-text span {
+  color: var(--fnt-clr-white);
+}
+/* FOOTER END */
+
 
 
 /*--------------------------------------------------------------
