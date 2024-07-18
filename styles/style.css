@@ -972,9 +972,9 @@ nav {
 }
 
 .ourservices-head-vector {
-  position: absolute;
+  position: relative;
   margin-top: 174px;
-  left: 62px;
+  right: 300px;
 }
 
 .ourservices-head-icon {
@@ -1005,6 +1005,7 @@ nav {
   font-size: 45px;
   font-weight: 600;
   line-height: 100px;
+  margin-left: -350px;
 }
 
 .fullservices-content-wrapper {
