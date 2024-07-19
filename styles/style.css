@@ -371,6 +371,7 @@ nav {
   display: inline-block;
   position: relative;
 }
+
 .content__img {
   width: 100%;
   height: 100%;
@@ -391,7 +392,8 @@ nav {
   height: auto;
   display: inline-flex;
   flex-direction: column;
-  gap: 2rem; /* 32px */
+  gap: 2rem;
+  /* 32px */
 }
 
 .content__text > h1 {
@@ -463,6 +465,7 @@ nav {
 .whatwedo-content {
   margin-top: 130px;
 }
+
 .whatwedo-content > h1 {
   font-size: 45px;
   font-weight: 600;
@@ -514,6 +517,7 @@ nav {
   padding: 20px 19px 20px 25px;
   background: transparent;
 }
+
 .whatwedo-content-image {
   position: relative;
   height: 818px;
@@ -632,7 +636,8 @@ nav {
 }
 
 .content__subtext {
-  font-size: var(--fnt-size-s); /* 16px */
+  font-size: var(--fnt-size-s);
+  /* 16px */
   line-height: 30px;
   font-weight: var(--fnt-weight-400);
 }
@@ -646,9 +651,11 @@ nav {
 
 .cta-text {
   color: black;
-  font-size: var(--fnt-size-s-m); /* 20px */
+  font-size: var(--fnt-size-s-m);
+  /* 20px */
   font-weight: var(--fnt-weight-500);
 }
+
 /* Leadership end */
 
 /* img start */
@@ -666,6 +673,7 @@ nav {
   height: 100%;
   width: 100%;
 }
+
 /* img end */
 
 /* Perks start */
@@ -713,17 +721,105 @@ nav {
 
 .perk h4 {
   font-family: var(--fnt-family-Syne);
-  font-size: var(--fnt-size-md); /* 32 */
+  font-size: var(--fnt-size-md);
+  /* 32 */
   font-weight: var(--fnt-weight-600);
   line-height: 2rem;
   text-align: left;
 }
 
 .perk p {
-  font-size: var(--fnt-size-s); /* 16 */
+  font-size: var(--fnt-size-s);
+  /* 16 */
 }
 
 /* perks eend */
+
+/*--------------------------------------------------------------
+# COACHING PROGRAM       
+--------------------------------------------------------------*/
+.coaching {
+  max-width: 1920px;
+  height: 812px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.coaching-line1 {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+
+.coaching-line2 {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+
+.coaching-content {
+  width: 1876px;
+  display: flex;
+  align-items: center;
+  margin-left: 337px;
+  gap: 163px;
+  position: relative;
+}
+
+.coaching-content-images {
+  width: 424px;
+  height: 474px;
+}
+
+.content-circle {
+  position: absolute;
+  left: 340px;
+  top: -100px;
+}
+
+.content-rectangle {
+  position: absolute;
+  background: none;
+  bottom: -75px;
+  left: -100px;
+  border-radius: 10px;
+}
+
+.coaching-content-info {
+  width: 900px;
+  height: 474px;
+}
+
+.coaching-content-info p {
+  position: absolute;
+  z-index: 1;
+  width: 775px;
+  margin-left: 42px;
+  margin-top: -120px;
+  font-family: Syne;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 46px;
+}
+
+.content-commas {
+  display: flex;
+  gap: 20px;
+  padding-top: 80px;
+}
+
+.coaching-btn {
+  display: flex;
+  gap: 15px;
+  padding-top: 80px;
+  padding-left: 42px;
+}
+/* END COACHING PROGRAM */
 
 /* section head start */
 
@@ -1173,6 +1269,92 @@ nav {
   color: var(--fnt-clr-white);
 }
 /* FOOTER END */
+
+/*--------------------------------------------------------------
+# COACHING PROGRAM       
+--------------------------------------------------------------*/
+.coaching {
+  max-width: 1920px;
+  height: 812px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.coaching-line1 {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+
+.coaching-line2 {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+
+.coaching-content {
+  width: 1876px;
+  display: flex;
+  align-items: center;
+  margin-left: 337px;
+  gap: 163px;
+  position: relative;
+}
+
+.coaching-content-images {
+  width: 424px;
+  height: 474px;
+}
+
+.content-circle {
+  position: absolute;
+  left: 340px;
+  top: -100px;
+}
+
+.content-rectangle {
+  position: absolute;
+  background: none;
+  bottom: -75px;
+  left: -100px;
+  border-radius: 10px;
+}
+
+.coaching-content-info {
+  width: 900px;
+  height: 474px;
+}
+
+.coaching-content-info p {
+  position: absolute;
+  z-index: 1;
+  width: 775px;
+  margin-left: 42px;
+  margin-top: -120px;
+  font-family: Syne;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 46px;
+}
+
+.content-commas {
+  display: flex;
+  gap: 20px;
+  padding-top: 80px;
+}
+
+.coaching-btn {
+  display: flex;
+  gap: 15px;
+  padding-top: 80px;
+  padding-left: 42px;
+}
+/* END COACHING PROGRAM */
 
 /* NEW STRATEGIES SECTION [ START ] */
 
