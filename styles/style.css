@@ -1723,6 +1723,10 @@ nav {
   border: none;
   height: 35px;
   width: 650px;
+  font-family: var(--fnt-family-Poppins);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .who-subscribe-btn {
