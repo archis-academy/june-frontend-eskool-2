@@ -1528,120 +1528,6 @@ nav {
 
 /* OUR SERVICES END */
 
-/* HIGH-PERFORMANCE START */
-
-.high-performance-container {
-  margin: 0 auto;
-  max-width: 1920px;
-  display: flex;
-  flex-direction: column;
-}
-
-.high-performance-img-wrapper {
-  height: 589px;
-}
-
-.high-performance__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* the section's child elements were already designed in the prior components. check whatwedo section  */
-
-/* HIGH-PERFORMANCE END */
-
-/* FOOTER START */
-
-.footer-container {
-  background: #282828;
-  max-width: 1920px;
-  height: 650px;
-  display: flex;
-  margin: 0px auto;
-  color: var(--fnt-clr-white);
-  flex-direction: column;
-  justify-content: space-between;
-  padding-top: 100px;
-}
-
-.footer-wrapper {
-  display: flex;
-  width: 90%;
-  justify-content: space-between;
-  align-self: center;
-  height: auto;
-}
-
-.footer-company {
-  display: flex;
-  gap: 3rem;
-  width: 30%;
-}
-
-.footer-content-wrapper {
-  display: flex;
-  width: 55%;
-  justify-content: space-between;
-}
-
-.footer-content__list {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.footer-content__list hr {
-  border: 1.5px solid #f9f9f972;
-}
-.footer-content__list__title {
-  font-family: var(--fnt-family-Syne);
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 36px;
-  text-align: left;
-}
-
-.footer-content__list__adress {
-  font-family: SF Pro Display;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 35px;
-  text-align: left;
-  color: #f9f9f96c;
-  text-wrap: wrap;
-  width: 150px;
-}
-
-.footer-content__list__links li a {
-  font-family: SF Pro Display;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 35px;
-  text-align: left;
-  color: #f9f9f96c;
-}
-
-.footer-bottom-wrapper {
-  border-top: 1.5px solid #f9f9f93f;
-  height: 120px;
-  align-content: center;
-  padding-left: 100px;
-}
-
-.footer-copyrigth-text {
-  font-family: var(--fnt-family-Poppins);
-  color: #f9f9f96c;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 40px;
-}
-
-.footer-copyrigth-text span {
-  color: var(--fnt-clr-white);
-}
-/* FOOTER END */
-
 /*--------------------------------------------------------------
 # COACHING PROGRAM       
 --------------------------------------------------------------*/
@@ -1805,3 +1691,117 @@ nav {
 }
 
 /* NEW STRATEGIES SECTION [ END ] */
+
+/* HIGH-PERFORMANCE START */
+
+.high-performance-container {
+  margin: 0 auto;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+}
+
+.high-performance-img-wrapper {
+  height: 589px;
+}
+
+.high-performance__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* the section's child elements were already designed in the prior components. check whatwedo section  */
+
+/* HIGH-PERFORMANCE END */
+
+/* FOOTER START */
+
+.footer-container {
+  background: #282828;
+  max-width: 1920px;
+  height: 650px;
+  display: flex;
+  margin: 0px auto;
+  color: var(--fnt-clr-white);
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-self: center;
+  height: auto;
+}
+
+.footer-company {
+  display: flex;
+  gap: 3rem;
+  width: 30%;
+}
+
+.footer-content-wrapper {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+}
+
+.footer-content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-content__list hr {
+  border: 1.5px solid #f9f9f972;
+}
+.footer-content__list__title {
+  font-family: var(--fnt-family-Syne);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+
+.footer-content__list__adress {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: left;
+  color: #f9f9f96c;
+  text-wrap: wrap;
+  width: 150px;
+}
+
+.footer-content__list__links li a {
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: left;
+  color: #f9f9f96c;
+}
+
+.footer-bottom-wrapper {
+  border-top: 1.5px solid #f9f9f93f;
+  height: 120px;
+  align-content: center;
+  padding-left: 100px;
+}
+
+.footer-copyrigth-text {
+  font-family: var(--fnt-family-Poppins);
+  color: #f9f9f96c;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.footer-copyrigth-text span {
+  color: var(--fnt-clr-white);
+}
+/* FOOTER END */
