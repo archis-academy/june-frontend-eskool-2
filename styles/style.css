@@ -1929,7 +1929,7 @@ nav {
 .who-are-our-clients-summary-container {
   display: flex;
   flex-direction: column;
-  width: 1920px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 90px;
   background: #fe6839;
