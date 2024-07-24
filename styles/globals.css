@@ -1,45 +1,45 @@
 @font-face {
-  font-family: "SF Pro Display";
-  src: url(/fonts/SF-Pro-Display-Thin.otf);
+	font-family: "SF Pro Display";
+	src: url(../fonts/SF-Pro-Display-Thin.otf);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
 }
 
 :root {
-  --fnt-family-Poppins: "Poppins", sans-serif;
-  --fnt-family-Syne: "Syne", sans-serif;
-  --fnt-size-s: 1rem; /* 16px */
-  --fnt-size-s-m: 1.5rem; /* 20px */ /* bolum isimlendirmeleri icin */
-  --fnt-size-md: 2rem; /* 32px */
-  --fnt-size-lr: 3rem; /* 48px */
-  --fnt-clr-white: #ffff;
-  --fnt-clr-secondary: #fe6839;
-  --fnt-clr-primary: #282828;
-  --fnt-clr-grey: #8d8d8d;
-  --fnt-weight-500: 500;
-  --fnt-weight-400: 400;
-  --fnt-weight-600: 600;
+	--fnt-family-Poppins: "Poppins", sans-serif;
+	--fnt-family-Syne: "Syne", sans-serif;
+	--fnt-size-s: 1rem; /* 16px */
+	--fnt-size-s-m: 1.5rem; /* 20px */ /* bolum isimlendirmeleri icin */
+	--fnt-size-md: 2rem; /* 32px */
+	--fnt-size-lr: 3rem; /* 48px */
+	--fnt-clr-white: #ffff;
+	--fnt-clr-secondary: #fe6839;
+	--fnt-clr-primary: #282828;
+	--fnt-clr-grey: #8d8d8d;
+	--fnt-weight-500: 500;
+	--fnt-weight-400: 400;
+	--fnt-weight-600: 600;
 }
 
 /* Bu sinifi call to action butonlarinin etrafindaki rounded border'i yaparken kullanabilirsiniz. */
 
 .--add-border {
-  border-radius: 50px;
-  border: 1px solid;
-  width: 190px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	border-radius: 50px;
+	border: 1px solid;
+	width: 190px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* rengini degistirmek icin ardindan bu classi ekleyebilirsiniz. */
 .--border-clr-orange {
-  border-color: var(--fnt-clr-secondary);
+	border-color: var(--fnt-clr-secondary);
 }
